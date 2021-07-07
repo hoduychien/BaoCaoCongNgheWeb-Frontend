@@ -1,0 +1,47 @@
+.staffList {
+    flex: 4;
+}
+.staffTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.staffListUser {
+    display: flex;
+    align-items: center;
+}
+  
+.staffListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+  
+.staffListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #1ab66b;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+  
+.staffListDelete{
+    color: red;
+    cursor: pointer;
+}
+.staffAddButton{
+    margin-bottom: 10px;
+    width: 100px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}

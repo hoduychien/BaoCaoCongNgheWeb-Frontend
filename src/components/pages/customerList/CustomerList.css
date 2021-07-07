@@ -1,0 +1,47 @@
+.customerList {
+    flex: 4;
+}
+.customerTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.customerListUser {
+    display: flex;
+    align-items: center;
+}
+  
+.customerListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+  
+.customerListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #1ab66b;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+  
+.customerListDelete{
+    color: red;
+    cursor: pointer;
+}
+.customerAddButton{
+    margin-bottom: 10px;
+    width: 100px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
